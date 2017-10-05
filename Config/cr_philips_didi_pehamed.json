@@ -1,0 +1,42 @@
+{
+    "actions": {
+        "acqdatetime": {
+            "filters": {}, 
+            "params": {}
+        }, 
+        "header_series": {
+            "filters": {}, 
+            "params": {
+                "linepair_type": "typ38", 
+                "phantom": "pehamed", 
+                "roomname": "DiDi", 
+                "tablepidmm": 85, 
+                "wallpidmm": 65, 
+                "xymm0.6": "80.1;-04.5", 
+                "xymm1.4": "59.4;-24.7", 
+                "xymm1.8": "53.1;27.1", 
+                "xymm4.6": "28.0;02.0"
+            }
+        }, 
+        "qc_series": {
+            "filters": {}, 
+            "params": {
+                "linepair_type": "typ38", 
+                "phantom": "pehamed", 
+                "roomname": "DiDi", 
+                "tablepidmm": 85, 
+                "wallpidmm": 65, 
+                "xymm0.6": "80.1;-04.5", 
+                "xymm1.4": "59.4;-24.7", 
+                "xymm1.8": "53.1;27.1", 
+                "xymm4.6": "28.0;02.0"
+            }
+        }
+    }, 
+    "comments": {
+        "author": "Arnold Schilham, UMCU", 
+        "creator": "generate_config_json.py version 20160822", 
+        "description": "CR module for Philips Digital Diagnost with Pehamed", 
+        "version": "20160413"
+    }
+}
