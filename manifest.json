@@ -1,0 +1,18 @@
+{
+    "info": {
+        "dbversion": "20180209"
+    },
+    "module": {
+        "name": "CR_DR_Pehamed_Wellhofer",
+        "description": "CR_DR Pehamed_Wellhofer",
+        "executable": "QCXRay_wadwrapper.py",
+        "code": "python",
+        "dependencies": [
+            "pillow",
+            "numpy",
+            "pydicom",
+            "scipy",
+            "matplotlib"
+        ]
+    }
+}

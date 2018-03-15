@@ -35,8 +35,8 @@
     }, 
     "comments": {
         "author": "Arnold Schilham, UMCU", 
-        "creator": "generate_config_json.py version 20160822", 
-        "description": "CR module for Philips Digital Diagnost with Pehamed", 
+        "creator": "generate_config_json.py version 20180219", 
+        "description": "CR_DR/Pehamed_Wellhofer for Philips Digital Diagnost with Pehamed", 
         "version": "20160413"
     }
 }

@@ -43,8 +43,8 @@
     }, 
     "comments": {
         "author": "Arnold Schilham, UMCU", 
-        "creator": "generate_config_json.py version 20160822", 
-        "description": "CR module for Siemens FCR with Wellhofer", 
+        "creator": "generate_config_json.py version 20180219", 
+        "description": "CR_DR/Pehamed_Wellhofer for Siemens FCR with Wellhofer", 
         "usage": [
             "params that must be set for both actions below:", 
             "  \"roomname\": \"Bucky1\" # any identifier", 
