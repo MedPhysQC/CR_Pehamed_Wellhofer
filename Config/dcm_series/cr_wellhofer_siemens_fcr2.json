@@ -41,9 +41,10 @@
             }
         }
     }, 
+    "cfgformat": "20180910", 
     "comments": {
         "author": "Arnold Schilham, UMCU", 
-        "creator": "generate_config_json.py version 20180219", 
+        "creator": "generate_config_json.py version 20180912", 
         "description": "CR_DR/Pehamed_Wellhofer for Siemens FCR with Wellhofer", 
         "usage": [
             "params that must be set for both actions below:", 
@@ -68,5 +69,16 @@
             "    \"xymm4.6\": \"28.4;01.8\" # the location of the dot in 4.6 on the line pair pattern"
         ], 
         "version": "20160413"
+    }, 
+    "info": {
+        "acqdatetime": {
+            "params": {}
+        }, 
+        "header_series": {
+            "params": {}
+        }, 
+        "qc_series": {
+            "params": {}
+        }
     }
 }
