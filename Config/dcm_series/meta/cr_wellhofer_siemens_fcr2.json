@@ -1,452 +1,452 @@
 {
     "comments": {
-        "author": "Arnold Schilham, UMCU", 
-        "creator": "generate_config_json.py version 20180912", 
+        "author": "Arnold Schilham, UMCU",
+        "creator": "generate_config_json.py version 20180912",
         "description": "CR_DR/Pehamed_Wellhofer for Siemens FCR with Wellhofer"
-    }, 
-    "metaformat": "20180910", 
+    },
+    "metaformat": "20180910",
     "results": {
         "Acquisition Device Processing Code_Table": {
-            "constraint_equals": "0904", 
-            "description": "", 
-            "display_level": 1, 
-            "display_name": "Processing Table", 
+            "constraint_equals": "0904",
+            "description": "",
+            "display_level": 1,
+            "display_name": "Processing Table",
             "units": ""
-        }, 
+        },
         "Acquisition Device Processing Code_Wall": {
-            "constraint_equals": "0904", 
-            "description": "", 
-            "display_level": 1, 
-            "display_name": "Processing Wall", 
+            "constraint_equals": "0904",
+            "description": "",
+            "display_level": 1,
+            "display_name": "Processing Wall",
             "units": ""
-        }, 
+        },
         "AcquisitionDateTime": {
-            "constraint_period": 14, 
-            "description": "date and time of acquisition", 
-            "display_level": 2, 
-            "display_name": "DateTime", 
+            "constraint_period": 14,
+            "description": "date and time of acquisition",
+            "display_level": 2,
+            "display_name": "DateTime",
             "units": ""
-        }, 
+        },
         "AlignConfidence_Table": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if outline of phantom correctly located", 
-            "display_level": 1, 
-            "display_name": "Align Confidence Table", 
+            ],
+            "description": "check if outline of phantom correctly located",
+            "display_level": 1,
+            "display_name": "Align Confidence Table",
             "units": "%"
-        }, 
+        },
         "AlignConfidence_Wall": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if outline of phantom correctly located", 
-            "display_level": 1, 
-            "display_name": "Align Confidence Wall", 
+            ],
+            "description": "check if outline of phantom correctly located",
+            "display_level": 1,
+            "display_name": "Align Confidence Wall",
             "units": "%"
-        }, 
+        },
         "AreaContrast5_Table": {
             "constraint_minlowhighmax": [
-                0.04, 
-                0.0425, 
-                0.05, 
+                0.04,
+                0.0425,
+                0.05,
                 0.05
-            ], 
-            "description": "area under contrast curve", 
-            "display_level": 1, 
-            "display_name": "AreaC5 Table", 
+            ],
+            "description": "area under contrast curve",
+            "display_level": 1,
+            "display_name": "AreaC5 Table",
             "units": ""
-        }, 
+        },
         "AreaContrast5_Wall": {
             "constraint_minlowhighmax": [
-                0.03, 
-                0.0325, 
-                0.04, 
+                0.03,
+                0.0325,
+                0.04,
                 0.04
-            ], 
-            "description": "area under contrast curve", 
-            "display_level": 1, 
-            "display_name": "AreaC5 Wall", 
+            ],
+            "description": "area under contrast curve",
+            "display_level": 1,
+            "display_name": "AreaC5 Wall",
             "units": ""
-        }, 
+        },
         "AreaMTF5_Table": {
             "constraint_minlowhighmax": [
-                0.3, 
-                0.325, 
-                0.5, 
+                0.3,
+                0.325,
+                0.5,
                 0.5
-            ], 
-            "description": "area under MTF curve", 
-            "display_level": 1, 
-            "display_name": "AreaMTF5 Table", 
+            ],
+            "description": "area under MTF curve",
+            "display_level": 1,
+            "display_name": "AreaMTF5 Table",
             "units": ""
-        }, 
+        },
         "AreaMTF5_Wall": {
             "constraint_minlowhighmax": [
-                0.3, 
-                0.325, 
-                0.5, 
+                0.3,
+                0.325,
+                0.5,
                 0.5
-            ], 
-            "description": "area under MTF curve", 
-            "display_level": 1, 
-            "display_name": "AreaMTF5 Wall", 
+            ],
+            "description": "area under MTF curve",
+            "display_level": 1,
+            "display_name": "AreaMTF5 Wall",
             "units": ""
-        }, 
+        },
         "CuCNRmin_Table": {
             "constraint_minlowhighmax": [
-                2.97, 
-                3.135, 
-                3.63, 
+                2.97,
+                3.135,
+                3.63,
                 3.63
-            ], 
-            "description": "minimal CNR across copper wedge", 
-            "display_level": 1, 
-            "display_name": "CuCNRmin Table", 
+            ],
+            "description": "minimal CNR across copper wedge",
+            "display_level": 1,
+            "display_name": "CuCNRmin Table",
             "units": ""
-        }, 
+        },
         "CuCNRmin_Wall": {
             "constraint_minlowhighmax": [
-                1.17, 
-                1.235, 
-                2.0, 
+                1.17,
+                1.235,
+                2.0,
                 2.0
-            ], 
-            "description": "minimal CNR across copper wedge", 
-            "display_level": 1, 
-            "display_name": "CuCNRmin Wall", 
+            ],
+            "description": "minimal CNR across copper wedge",
+            "display_level": 1,
+            "display_name": "CuCNRmin Wall",
             "units": ""
-        }, 
+        },
         "CuDR0.6_0.0_Table": {
             "constraint_minlowhighmax": [
-                1.89, 
-                1.995, 
-                2.31, 
+                1.89,
+                1.995,
+                2.31,
                 2.31
-            ], 
-            "description": "dynamic range across copper wedge", 
-            "display_level": 1, 
-            "display_name": "CuDR Table", 
+            ],
+            "description": "dynamic range across copper wedge",
+            "display_level": 1,
+            "display_name": "CuDR Table",
             "units": ""
-        }, 
+        },
         "CuDR0.6_0.0_Wall": {
             "constraint_minlowhighmax": [
-                1.35, 
-                1.425, 
-                2.0, 
+                1.35,
+                1.425,
+                2.0,
                 2.0
-            ], 
-            "description": "dynamic range across copper wedge", 
-            "display_level": 1, 
-            "display_name": "CuDR Wall", 
+            ],
+            "description": "dynamic range across copper wedge",
+            "display_level": 1,
+            "display_name": "CuDR Wall",
             "units": ""
-        }, 
+        },
         "CuSNR_0.0_Table": {
             "constraint_minlowhighmax": [
-                40.5, 
-                42.75, 
-                49.5, 
+                40.5,
+                42.75,
+                49.5,
                 49.5
-            ], 
-            "description": "SNR in copper of thickness 0.0", 
-            "display_level": 1, 
-            "display_name": "CuSNR_0.0 Table", 
+            ],
+            "description": "SNR in copper of thickness 0.0",
+            "display_level": 1,
+            "display_name": "CuSNR_0.0 Table",
             "units": ""
-        }, 
+        },
         "CuSNR_0.0_Wall": {
             "constraint_minlowhighmax": [
-                31.5, 
-                33.25, 
-                40.0, 
+                31.5,
+                33.25,
+                40.0,
                 40.0
-            ], 
-            "description": "SNR in copper of thickness 0.0", 
-            "display_level": 1, 
-            "display_name": "CuSNR_0.0 Wall", 
+            ],
+            "description": "SNR in copper of thickness 0.0",
+            "display_level": 1,
+            "display_name": "CuSNR_0.0 Wall",
             "units": ""
-        }, 
+        },
         "LRUniformity_Wall": {
             "constraint_minlowhighmax": [
-                -10, 
-                -5, 
-                5, 
+                -10,
+                -5,
+                5,
                 10
-            ], 
-            "description": "Uniformity difference between left and right", 
-            "display_level": 2, 
-            "display_name": "ROIUniformity Wall", 
+            ],
+            "description": "Uniformity difference between left and right",
+            "display_level": 2,
+            "display_name": "ROIUniformity Wall",
             "units": "%"
-        }, 
+        },
         "MTF10_Table": {
             "constraint_minlowhighmax": [
-                3.0, 
-                3.5, 
-                5.0, 
+                3.0,
+                3.5,
+                5.0,
                 5.0
-            ], 
-            "description": "MTF 10 pct cut off", 
-            "display_level": 1, 
-            "display_name": "MTF10 Table", 
+            ],
+            "description": "MTF 10 pct cut off",
+            "display_level": 1,
+            "display_name": "MTF10 Table",
             "units": ""
-        }, 
+        },
         "MTF10_Wall": {
             "constraint_minlowhighmax": [
-                3.0, 
-                3.25, 
-                5.0, 
+                3.0,
+                3.25,
+                5.0,
                 5.0
-            ], 
-            "description": "MTF 10 pct cut off", 
-            "display_level": 1, 
-            "display_name": "MTF10 Wall", 
+            ],
+            "description": "MTF 10 pct cut off",
+            "display_level": 1,
+            "display_name": "MTF10 Wall",
             "units": ""
-        }, 
+        },
         "MTFFreqConfidence_Table": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if line pairs in phantom correctly translated to frequencies", 
-            "display_level": 1, 
-            "display_name": "MTFFequencies Confidence Table", 
+            ],
+            "description": "check if line pairs in phantom correctly translated to frequencies",
+            "display_level": 1,
+            "display_name": "MTFFequencies Confidence Table",
             "units": "%"
-        }, 
+        },
         "MTFFreqConfidence_Wall": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if line pairs in phantom correctly translated to frequencies", 
-            "display_level": 1, 
-            "display_name": "MTFFequencies Confidence Wall", 
+            ],
+            "description": "check if line pairs in phantom correctly translated to frequencies",
+            "display_level": 1,
+            "display_name": "MTFFequencies Confidence Wall",
             "units": "%"
-        }, 
+        },
         "MTFPosConfidence_Table": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if line pairs in phantom correctly located", 
-            "display_level": 1, 
-            "display_name": "MTFPosition Confidence Table", 
+            ],
+            "description": "check if line pairs in phantom correctly located",
+            "display_level": 1,
+            "display_name": "MTFPosition Confidence Table",
             "units": "%"
-        }, 
+        },
         "MTFPosConfidence_Wall": {
             "constraint_minlowhighmax": [
-                70, 
-                80, 
-                100, 
+                70,
+                80,
+                100,
                 100
-            ], 
-            "description": "check if line pairs in phantom correctly located", 
-            "display_level": 1, 
-            "display_name": "MTFPosition Confidence Wall", 
+            ],
+            "description": "check if line pairs in phantom correctly located",
+            "display_level": 1,
+            "display_name": "MTFPosition Confidence Wall",
             "units": "%"
-        }, 
+        },
         "PhantomOrientation_Table": {
             "constraint_minlowhighmax": [
-                -1, 
-                -1, 
-                1, 
+                -1,
+                -1,
+                1,
                 1
-            ], 
-            "description": "check if orientation of phantom is correct", 
-            "display_level": 1, 
-            "display_name": "Phantom Orientation Table", 
+            ],
+            "description": "check if orientation of phantom is correct",
+            "display_level": 1,
+            "display_name": "Phantom Orientation Table",
             "units": "degrees"
-        }, 
+        },
         "PhantomOrientation_Wall": {
             "constraint_minlowhighmax": [
-                -1, 
-                -1, 
-                1, 
+                -1,
+                -1,
+                1,
                 1
-            ], 
-            "description": "check if orientation of phantom is correct", 
-            "display_level": 1, 
-            "display_name": "Phantom Orientation Wall", 
+            ],
+            "description": "check if orientation of phantom is correct",
+            "display_level": 1,
+            "display_name": "Phantom Orientation Wall",
             "units": "degrees"
-        }, 
+        },
         "ROIUniformity_Table": {
             "constraint_minlowhighmax": [
-                -10, 
-                -5, 
-                5, 
+                -10,
+                -5,
+                5,
                 10
-            ], 
-            "description": "Uniformity difference accross horizontal ROI", 
-            "display_level": 2, 
-            "display_name": "ROIUniformity Table", 
+            ],
+            "description": "Uniformity difference accross horizontal ROI",
+            "display_level": 2,
+            "display_name": "ROIUniformity Table",
             "units": "%"
-        }, 
+        },
         "SoftwareVersions_Table": {
-            "constraint_equals": "A19", 
-            "description": "", 
-            "display_level": 1, 
-            "display_name": "SoftwareVersions Table", 
+            "constraint_equals": "A19",
+            "description": "",
+            "display_level": 1,
+            "display_name": "SoftwareVersions Table",
             "units": ""
-        }, 
+        },
         "SoftwareVersions_Wall": {
-            "constraint_equals": "A19", 
-            "description": "", 
-            "display_level": 1, 
-            "display_name": "SoftwareVersions Wall", 
+            "constraint_equals": "A19",
+            "description": "",
+            "display_level": 1,
+            "display_name": "SoftwareVersions Wall",
             "units": ""
-        }, 
+        },
         "lowCNR_0_Table": {
             "constraint_minlowhighmax": [
-                1.8, 
-                1.9, 
-                2.2, 
+                1.8,
+                1.9,
+                2.2,
                 2.2
-            ], 
-            "description": "CNR of low contrast object", 
-            "display_level": 1, 
-            "display_name": "lowCNR Table", 
+            ],
+            "description": "CNR of low contrast object",
+            "display_level": 1,
+            "display_name": "lowCNR Table",
             "units": ""
-        }, 
+        },
         "lowCNR_0_Wall": {
             "constraint_minlowhighmax": [
-                1.0, 
-                1.05, 
-                2.0, 
+                1.0,
+                1.05,
+                2.0,
                 2.0
-            ], 
-            "description": "CNR of low contrast object", 
-            "display_level": 1, 
-            "display_name": "lowCNR Wall", 
+            ],
+            "description": "CNR of low contrast object",
+            "display_level": 1,
+            "display_name": "lowCNR Wall",
             "units": ""
-        }, 
+        },
         "xrayDev_Table": {
             "constraint_minlowhighmax": [
-                -1.1, 
-                -0.5, 
-                0.5, 
+                -1.1,
+                -0.5,
+                0.5,
                 1.1
-            ], 
-            "description": "max deviation of x-ray field", 
-            "display_level": 2, 
-            "display_name": "xrayDev Table", 
+            ],
+            "description": "max deviation of x-ray field",
+            "display_level": 2,
+            "display_name": "xrayDev Table",
             "units": "%"
-        }, 
+        },
         "xrayDev_Wall": {
             "constraint_minlowhighmax": [
-                -1.1, 
-                -0.5, 
-                0.5, 
+                -1.1,
+                -0.5,
+                0.5,
                 1.1
-            ], 
-            "description": "max deviation of x-ray field", 
-            "display_level": 2, 
-            "display_name": "xrayDev Wall", 
+            ],
+            "description": "max deviation of x-ray field",
+            "display_level": 2,
+            "display_name": "xrayDev Wall",
             "units": "%"
-        }, 
+        },
         "xray[E]cm_Table": {
             "constraint_minlowhighmax": [
-                11.3, 
-                11.9, 
-                13.1, 
+                11.3,
+                11.9,
+                13.1,
                 13.7
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[E] Table", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[E] Table",
             "units": "cm"
-        }, 
+        },
         "xray[E]cm_Wall": {
             "constraint_minlowhighmax": [
-                10.5, 
-                11.5, 
-                13.5, 
+                10.5,
+                11.5,
+                13.5,
                 14.5
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[E] Wall", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[E] Wall",
             "units": "cm"
-        }, 
+        },
         "xray[N]cm_Table": {
             "constraint_minlowhighmax": [
-                11.3, 
-                11.9, 
-                13.1, 
+                11.3,
+                11.9,
+                13.1,
                 13.7
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[N] Table", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[N] Table",
             "units": "cm"
-        }, 
+        },
         "xray[N]cm_Wall": {
             "constraint_minlowhighmax": [
-                10.5, 
-                11.5, 
-                13.5, 
+                10.5,
+                11.5,
+                13.5,
                 14.5
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[N] Wall", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[N] Wall",
             "units": "cm"
-        }, 
+        },
         "xray[S]cm_Table": {
             "constraint_minlowhighmax": [
-                11.3, 
-                11.9, 
-                13.1, 
+                11.3,
+                11.9,
+                13.1,
                 13.7
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[S] Table", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[S] Table",
             "units": "cm"
-        }, 
+        },
         "xray[S]cm_Wall": {
             "constraint_minlowhighmax": [
-                10.5, 
-                11.5, 
-                13.5, 
+                10.5,
+                11.5,
+                13.5,
                 14.5
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[S] Wall", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[S] Wall",
             "units": "cm"
-        }, 
+        },
         "xray[W]cm_Table": {
             "constraint_minlowhighmax": [
-                11.3, 
-                11.9, 
-                13.1, 
+                11.3,
+                11.9,
+                13.1,
                 13.7
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[W] Table", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[W] Table",
             "units": "cm"
-        }, 
+        },
         "xray[W]cm_Wall": {
             "constraint_minlowhighmax": [
-                10.5, 
-                11.5, 
-                13.5, 
+                10.5,
+                11.5,
+                13.5,
                 14.5
-            ], 
-            "description": "edge of x-ray field", 
-            "display_level": 1, 
-            "display_name": "xray[W] Wall", 
+            ],
+            "description": "edge of x-ray field",
+            "display_level": 1,
+            "display_name": "xray[W] Wall",
             "units": "cm"
         }
     }

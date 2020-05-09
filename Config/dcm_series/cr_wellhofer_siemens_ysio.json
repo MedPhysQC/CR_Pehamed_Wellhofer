@@ -1,56 +1,56 @@
 {
     "actions": {
         "acqdatetime": {
-            "filters": {}, 
+            "filters": {},
             "params": {}
-        }, 
+        },
         "header_series": {
-            "filters": {}, 
+            "filters": {},
             "params": {
-                "linepair_type": "typ38", 
-                "outvalue": 20, 
-                "phantom": "wellhofer", 
-                "roomname": "YSIO", 
-                "tablepidmm": 58, 
-                "use_mustbeinverted": "False", 
-                "wallpidmm": 65, 
-                "xymm0.6": "80.6;-04.7", 
-                "xymm1.4": "59.9;-24.9", 
-                "xymm1.8": "53.7;27.1", 
+                "linepair_type": "typ38",
+                "outvalue": 20,
+                "phantom": "wellhofer",
+                "roomname": "YSIO",
+                "tablepidmm": 58,
+                "use_mustbeinverted": "False",
+                "wallpidmm": 65,
+                "xymm0.6": "80.6;-04.7",
+                "xymm1.4": "59.9;-24.9",
+                "xymm1.8": "53.7;27.1",
                 "xymm4.6": "28.4;01.8"
             }
-        }, 
+        },
         "qc_series": {
-            "filters": {}, 
+            "filters": {},
             "params": {
-                "linepair_type": "typ38", 
-                "outvalue": 20, 
-                "phantom": "wellhofer", 
-                "roomname": "YSIO", 
-                "tablepidmm": 58, 
-                "use_mustbeinverted": "False", 
-                "wallpidmm": 65, 
-                "xymm0.6": "80.6;-04.7", 
-                "xymm1.4": "59.9;-24.9", 
-                "xymm1.8": "53.7;27.1", 
+                "linepair_type": "typ38",
+                "outvalue": 20,
+                "phantom": "wellhofer",
+                "roomname": "YSIO",
+                "tablepidmm": 58,
+                "use_mustbeinverted": "False",
+                "wallpidmm": 65,
+                "xymm0.6": "80.6;-04.7",
+                "xymm1.4": "59.9;-24.9",
+                "xymm1.8": "53.7;27.1",
                 "xymm4.6": "28.4;01.8"
             }
         }
-    }, 
-    "cfgformat": "20180910", 
+    },
+    "cfgformat": "20180910",
     "comments": {
-        "author": "Arnold Schilham, UMCU", 
-        "creator": "generate_config_json.py version 20180912", 
-        "description": "CR_DR/Pehamed_Wellhofer for Siemens Ysio with Wellhofer", 
+        "author": "Arnold Schilham, UMCU",
+        "creator": "generate_config_json.py version 20180912",
+        "description": "CR_DR/Pehamed_Wellhofer for Siemens Ysio with Wellhofer",
         "version": "20161216"
-    }, 
+    },
     "info": {
         "acqdatetime": {
             "params": {}
-        }, 
+        },
         "header_series": {
             "params": {}
-        }, 
+        },
         "qc_series": {
             "params": {}
         }
